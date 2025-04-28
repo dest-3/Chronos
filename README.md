@@ -60,13 +60,13 @@ To get started with Chronos on the TI Hercules RM48L952ZWTT development board:
 2. **Clone the Repository**  
    `git clone https://github.com/your-repo/chronos.git`
 
-3. **Import Projects into CCS**
+3. **Import Projects into CCS**<br>
     Open CCS, go to **File > Import > Code Composer Studio > CCS Projects**, and select the `workspace/` folder. Then select all example projects. 
 
-4. **Configure Security Policy**
+5. **Configure Security Policy**<br>
     Modify the JSON configuration in `gen_edr_config.py` in the selected project folder to configure the security configuration of Chronos. Then run `python3 gen_edr_config.py` to generate the assosciated code and header files.
     
-5. **(Optional) Enforce Return address validation**
+6. **(Optional) Enforce Return address validation**<br>
     If enforcing return address validation for yield APIs:
     1. Add any relevant task code in `main.c`. 
     2. Compile the firmware. 
@@ -74,7 +74,7 @@ To get started with Chronos on the TI Hercules RM48L952ZWTT development board:
     4. Add addresses in the JSON config of `gen_edr_config.py` and run `python3 gen_edr_config.py`.
     5. Compile
 
-6. **Configure Network**
+7. **Configure Network**<br>
     Run a DHCP on your host machine and connect the RM48 via Ethernet. Use the following DHCP server settings:
     ```
        IP pool start address: 192.168.4.100
@@ -85,10 +85,10 @@ To get started with Chronos on the TI Hercules RM48L952ZWTT development board:
     ```
     Ensure the server does not enforce pinging an addresses before IP assignment. Also ensure that the Ethernet switch on the RM48 is set to ON. For a quick and easy DHCP setup [TFPD64](https://www.intel.com/content/www/us/en/docs/programmable/683536/current/tftpd64-by-ph-jounin-installation.html) is recommended. 
 
-7. **Run the UDP Server** 
+8. **Run the UDP Server**<br>
     `python3 udp_serv.py`
 
-8. **Build and Flash a Project**
+9. **Build and Flash a Project**<br>
     In CCS, build one of the projects (e.g., coremark_drone) and flash it to the board via USB JTAG by navigating to **Run > Debug** or **Run > Load**
 
 ## License
