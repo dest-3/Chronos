@@ -1,0 +1,4 @@
+arch/       - Include files for HDK architecture.
+netif/      - Include files for HDK network interfaces.
+
+See also the FILES file in each subdirectory.

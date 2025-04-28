@@ -1,0 +1,178 @@
+[HIGH]
+    
+    json_input = '''{
+        "totalTasks": 4,
+        "MAX_EDR_MEM": 1024,
+        "EDR_TASK_PRIORITY": "3",
+        "INIT_EDR_SLEEP_TIME": 50,
+        "MIN_EDR_SLEEP_TIME": 10,
+        "TIME_CHECK_TICK_FREQ": 50,
+        "HBEAT_TICK_FREQ": 300,
+        "CONCRETE_EXEC_TIMES_ARRAY_LEN": 10,
+        "EMA_SCALE_FACTOR": 256,
+        "NUM_SAMPLES_FOR_AVERAGE": 8,
+        "TIMING_RESPONSE": "LOG",
+        "WDOG_RESPONSE": "LOG",
+        "DABORT_RESPONSE": "DELETE",
+        "PABORT_RESPONSE": "DELETE",
+        "USER_RESPONSE" : "LOG",
+        "KERNEL_RESPONSE": "LOG",
+        "ENABLE_YIELD_RET_ADDR_CHECK": 1,
+        "FULL_EXEC_CHECK": 1,
+        "tasks": [
+            {"id": 0, "averageExecutionTime": 143, "worstCaseExecutionTime": 168, "maximumAverageDeviation": 50, "vTaskDelay_LR": [150332], "vTaskDelayUntil_LR": [0], "taskYIELD_FROM_TASK": [0], "vTaskSuspend":[0]},
+            {"id": 1, "averageExecutionTime": 293, "worstCaseExecutionTime": 399, "maximumAverageDeviation": 60, "vTaskDelay_LR": [150540], "vTaskDelayUntil_LR": [0], "taskYIELD_FROM_TASK": [0], "vTaskSuspend":[0]},
+            {"id": 2, "averageExecutionTime": 415, "worstCaseExecutionTime": 583, "maximumAverageDeviation": 80, "vTaskDelay_LR": [150704], "vTaskDelayUntil_LR": [0], "taskYIELD_FROM_TASK": [0], "vTaskSuspend":[0]},
+            {"id": 3, "averageExecutionTime": 171, "worstCaseExecutionTime": 196, "maximumAverageDeviation": 50, "vTaskDelay_LR": [150848], "vTaskDelayUntil_LR": [0], "taskYIELD_FROM_TASK": [150880], "vTaskSuspend":[0]}
+        ]
+    }'''
+
+IP: 192.168.4.101
+Connected to UDP server
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 25984
+Total time (secs): 25.984000
+Iterations/Sec   : 230.911330
+Iterations       : 6000
+Compiler version : Please put compiler version here (e.g. gcc 4.1)
+Compiler flags   : none
+Memory location  : STACK
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0xa14c
+Correct operation validated. See README.md for run and reporting rules.
+CoreMark 1.0 : 230.911330 / Please put compiler version here (e.g. gcc 4.1) none / STACK
+
+[MEDIUM]
+    json_input = '''{
+        "totalTasks": 4,
+        "MAX_EDR_MEM": 1024,
+        "EDR_TASK_PRIORITY": "3",
+        "INIT_EDR_SLEEP_TIME": 150,
+        "MIN_EDR_SLEEP_TIME": 30,
+        "TIME_CHECK_TICK_FREQ": 150,
+        "HBEAT_TICK_FREQ": 500,
+        "CONCRETE_EXEC_TIMES_ARRAY_LEN": 6,
+        "EMA_SCALE_FACTOR": 256,
+        "NUM_SAMPLES_FOR_AVERAGE": 8,
+        "TIMING_RESPONSE": "LOG",
+        "WDOG_RESPONSE": "LOG",
+        "DABORT_RESPONSE": "DELETE",
+        "PABORT_RESPONSE": "DELETE",
+        "USER_RESPONSE" : "LOG",
+        "KERNEL_RESPONSE": "LOG",
+        "ENABLE_YIELD_RET_ADDR_CHECK": 1,
+        "FULL_EXEC_CHECK": 0,
+        "tasks": [
+            {"id": 0, "averageExecutionTime": 143, "worstCaseExecutionTime": 168, "maximumAverageDeviation": 50, "vTaskDelay_LR": [150332], "vTaskDelayUntil_LR": [0], "taskYIELD_FROM_TASK": [0], "vTaskSuspend":[0]},
+            {"id": 1, "averageExecutionTime": 293, "worstCaseExecutionTime": 399, "maximumAverageDeviation": 60, "vTaskDelay_LR": [150540], "vTaskDelayUntil_LR": [0], "taskYIELD_FROM_TASK": [0], "vTaskSuspend":[0]},
+            {"id": 2, "averageExecutionTime": 415, "worstCaseExecutionTime": 583, "maximumAverageDeviation": 80, "vTaskDelay_LR": [150704], "vTaskDelayUntil_LR": [0], "taskYIELD_FROM_TASK": [0], "vTaskSuspend":[0]},
+            {"id": 3, "averageExecutionTime": 171, "worstCaseExecutionTime": 198, "maximumAverageDeviation": 50, "vTaskDelay_LR": [150848], "vTaskDelayUntil_LR": [0], "taskYIELD_FROM_TASK": [150880], "vTaskSuspend":[0]}
+        ]
+    }'''
+
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 25967
+Total time (secs): 25.967000
+Iterations/Sec   : 231.062502
+Iterations       : 6000
+Compiler version : Please put compiler version here (e.g. gcc 4.1)
+Compiler flags   : none
+Memory location  : STACK
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0xa14c
+Correct operation validated. See README.md for run and reporting rules.
+CoreMark 1.0 : 231.062502 / Please put compiler version here (e.g. gcc 4.1) none / STACK
+
+[LOW]
+    json_input = '''{
+        "totalTasks": 4,
+        "MAX_EDR_MEM": 1024,
+        "EDR_TASK_PRIORITY": "3",
+        "INIT_EDR_SLEEP_TIME": 1000,
+        "MIN_EDR_SLEEP_TIME": 100,
+        "TIME_CHECK_TICK_FREQ": 1000,
+        "HBEAT_TICK_FREQ": 1800,
+        "CONCRETE_EXEC_TIMES_ARRAY_LEN": 6,
+        "EMA_SCALE_FACTOR": 256,
+        "NUM_SAMPLES_FOR_AVERAGE": 8,
+        "TIMING_RESPONSE": "LOG",
+        "WDOG_RESPONSE": "LOG",
+        "DABORT_RESPONSE": "DELETE",
+        "PABORT_RESPONSE": "DELETE",
+        "USER_RESPONSE" : "LOG",
+        "KERNEL_RESPONSE": "LOG",
+        "ENABLE_YIELD_RET_ADDR_CHECK": 1,
+        "FULL_EXEC_CHECK": 0,
+        "tasks": [
+            {"id": 0, "averageExecutionTime": 143, "worstCaseExecutionTime": 168, "maximumAverageDeviation": 50, "vTaskDelay_LR": [150332], "vTaskDelayUntil_LR": [0], "taskYIELD_FROM_TASK": [0], "vTaskSuspend":[0]},
+            {"id": 1, "averageExecutionTime": 293, "worstCaseExecutionTime": 399, "maximumAverageDeviation": 60, "vTaskDelay_LR": [150540], "vTaskDelayUntil_LR": [0], "taskYIELD_FROM_TASK": [0], "vTaskSuspend":[0]},
+            {"id": 2, "averageExecutionTime": 415, "worstCaseExecutionTime": 583, "maximumAverageDeviation": 80, "vTaskDelay_LR": [150704], "vTaskDelayUntil_LR": [0], "taskYIELD_FROM_TASK": [0], "vTaskSuspend":[0]},
+            {"id": 3, "averageExecutionTime": 171, "worstCaseExecutionTime": 198, "maximumAverageDeviation": 50, "vTaskDelay_LR": [150848], "vTaskDelayUntil_LR": [0], "taskYIELD_FROM_TASK": [150880], "vTaskSuspend":[0]}
+        ]
+    }'''
+
+IP: 192.168.4.101
+Connected to UDP server
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 25960
+Total time (secs): 25.960000
+Iterations/Sec   : 231.124807
+Iterations       : 6000
+Compiler version : Please put compiler version here (e.g. gcc 4.1)
+Compiler flags   : none
+Memory location  : STACK
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0xa14c
+Correct operation validated. See README.md for run and reporting rules.
+CoreMark 1.0 : 231.124807 / Please put compiler version here (e.g. gcc 4.1) none / STACK
+
+
+[BASE]
+[CortexR4] 2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 25743
+Total time (secs): 25.743000
+Iterations/Sec   : 233.073068
+Iterations       : 6000
+Compiler version : Please put compiler version here (e.g. gcc 4.1)
+Compiler flags   : none
+Memory location  : STACK
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0xa14c
+Correct operation validated. See README.md for run and reporting rules.
+CoreMark 1.0 : 233.073068 / Please put compiler version here (e.g. gcc 4.1) none / STACK
+CoreMark 1.0 : 698.703517 / Please put compiler version here (e.g. gcc 4.1) none / STACK
+
+
+[NULL POLICY - NO EDR TASK running]
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 25827
+Total time (secs): 25.827000
+Iterations/Sec   : 232.315019
+Iterations       : 6000
+Compiler version : Please put compiler version here (e.g. gcc 4.1)
+Compiler flags   : none
+Memory location  : STACK
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0xa14c
+Correct operation validated. See README.md for run and reporting rules.
+CoreMark 1.0 : 232.315019 / Please put compiler version here (e.g. gcc 4.1) none / STACK

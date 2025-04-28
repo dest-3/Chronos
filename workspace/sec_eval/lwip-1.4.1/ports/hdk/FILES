@@ -1,0 +1,6 @@
+include/    - Include files for HDK ports.
+netif/      - Network interface drivers for HDKdevices.
+perf.c      - HDK performance monitor driver file (not used).
+sys_arch.c  - HDK architecture support file.
+
+See also the FILES file in each subdirectory.
