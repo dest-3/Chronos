@@ -20,7 +20,7 @@
 
 Chronos was developed as a lightweight kernel extension that brings endpoint detection and response (EDR) capabilities to real-time embedded systems. Chronos employs timing-based detection mechanisms to identify abnormal task behavior and enforces memory separation through the Memory Protection Unit (MPU) to isolate EDR and kernel code from untrusted application code. It dynamically adapts to system load, reducing the frequency of security checks during high utilization to maintain responsiveness, and increasing it during low utilization to enhance security coverage. To detect reconnaissance and tampering attempts, Chronos instruments OS kernel APIs, blocking unauthorized modifications to security-critical code and data structures. It also enforces return address integrity for FreeRTOS yield APIs by validating return addresses against a per-task whitelist. When a security event is detected, forensic data is transmitted to a remote server for real-time threat analysis. Chronos is implemented as an extension to FreeRTOS and evaluated on a system that simulates UAV operations. Performance was measured using the CoreMark benchmark. Under the most aggressive security policy configuration, Chronos incurred a runtime overhead of 0.86% and a 45.1% increase in code size.
 
-For the details of Chronos, check the [paper]()
+For the details of Chronos, check the [paper]() - coming soon
 
 ## Use Cases
 
