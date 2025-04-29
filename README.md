@@ -15,6 +15,7 @@
     8. [Build and Flash a Project](#build-and-flash-a-project)
 6. [License](#license)
 7. [Citation](#citation)
+8. [Contact](#contact)
 
 ## Introduction
 
@@ -108,6 +109,10 @@ If you use Chronos in academic work, please cite as:
   note         = {\url{https://github.com/dest-3/chronos}}
 }
 ```
+
+## Contact
+
+Michalis Antoniades - mantonia(at)andrew.cmu.edu
 
 
 
