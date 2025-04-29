@@ -59,7 +59,7 @@ To get started with Chronos on the TI Hercules RM48L952ZWTT development board:
    Download and install [Code Composer Studio](https://www.ti.com/tool/CCSTUDIO). Ensure support for the RM48 series and XDS100v2 JTAG is enabled during installation.
 
 2. ### Clone the Repository
-   `git clone https://github.com/your-repo/chronos.git`
+   `git clone https://github.com/dest-3/chronos.git`
 
 3. ### Import Projects into CCS 
     Open CCS, go to **File > Import > Code Composer Studio > CCS Projects**, and select the `workspace/` folder. Then select all example projects. 
